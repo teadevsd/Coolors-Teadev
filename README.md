@@ -1,0 +1,1 @@
+This is the coolor application fully responsive!

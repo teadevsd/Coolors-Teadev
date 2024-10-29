@@ -1,0 +1,7 @@
+.sponsorContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}

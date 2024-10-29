@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heroCont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+
+    .sartBut{
+        padding: 14px 70px;
+        background-color: rgba(0, 0, 255, 0.877);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .sartBut:hover{
+        background-color: rgb(6, 6, 206);
+    }
+    .explorButt{
+        padding: 14px 46px;
+        margin: 20px 0;
+        border: 1px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .ads{
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+}
+
+.heroDetails{
+    width: 500px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+
+    h1{
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 70px;
+    }
+
+    p{
+        font-size: 20px;
+        margin: 40px 30px;
+        
+    }
+
+}
+
+
+.image-container {
+    width: 100%;             
+    overflow: hidden;        
+    position: relative;
+  }
+  
+  .deskImage {
+    object-fit: cover;
+    width: 140%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+
